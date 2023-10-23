@@ -1,100 +1,169 @@
-<html>
-	<head>
-		<title>Profile Page</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-	</head>
-	<body>
-		<nav>
-			<ul id='navbar'>
-				<li><a href="#welcome">Home</a></li>
-				<li><a href="#About">About Me</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-			</ul>
-		</nav>
-		<section id="welcome">
-			<h1>AYUSH PANDEY</h1>
-			<h4>COMPUTER SCIENCE STUDENT</h4>
-			<div>
-				<a href="https://github.com/ayushpandey182005" target="_blank"><button class="button button1"><i class="fa fa-github"></i> Github</button></a>
-				<a href="https://instagram.com/ayushpandey200518?igshid=YmMyMTA2M2Y=" target="_blank"><button class="button button3"><i class="fa fa-instagram"></i> Instagram</button></a>
-				<a href="https://www.linkedin.com/in/ayush-pandey-920094268" target="_blank"><button class="button button4"><i class="fa fa-linkedin"></i> LinkedIn</button></a>
-			<p></p>
-		</section>
-		<section id="About">
-			
-			<div class="about-grid-container">
-				
-				<div class="item_about">
-					<h3>ABOUT ME</h3>
-					<div class="centered line"></div>
-					<p>Hi there, my name is AYUSH PANDEY.</p>
-					<p>I am BCA student in Lovely Professional university.I am learning coding and further i have to do application development work so i am working on that also</p>
-				<p>Knowledge of computer science is the modern superpower and I would like to make world a better place by using it. I am especially interested in helping people with technological innovation, entrepreneurship and inspiring as many young students for computer science as possible.</p>
-				<p>However, I am a person of thousand interests.</p>
-				<p><i class="fas fa-angle-double-down style='font-size:48px"></i></p>
-			</div>
-				<div class="item_img"><img src="https://avatars.githubusercontent.com/u/112365961?s=400&u=da3ef91b9a2b86d5032d60bf93b5fa5b5214c8c0&v=4" alt="Ayush"></div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">AYUSH PANDEY</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm AYUSH</h1>
+        <p>Computer science student</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="https://lh3.googleusercontent.com/a/ACg8ocJS59Rjp4IpOapjX-j6IVsdbqn2ANccBEu4owlpmUvdoPCmUIpSoKUCX6ULV1AjuhtTfaToBunJMX9gGC1AcuEHHw=s288-c-no" alt="image" />
+          <p>
+            I am 18 year old, BCA student studied at lovely profesional university.I am learning coding and further i have to do application development work so i am working on that also</p>
+            <p>Knowledge of computer science is the modern superpower and I would like to make world a better place by using it. I am especially interested in helping people with technological innovation, entrepreneurship and inspiring as many young students for computer science as possible.</p>
+            <p>However, I am a person of thousand interests.
+            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+            things; the more, the better.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="progress-line"><span class="bootstrap"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C Programming</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>projects</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="https://lh3.googleusercontent.com/a/ACg8ocJSo2kN6kkcjR7Pn9Hty5xq54qcumRVoCVXGimtt00bDwEx90Ui4a_943_eWG5JkFAL33svrufm_2x30kEJE6twnQ=s288-c-no">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>weather forcasting website</h2>
+            <p>Build Using HTML,CSS,JS</p>
+            <button><a href="https://github.com/ayushpandey182005/weather-forcasting-website" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="https://ayushpandey182005.github.io/weather-forcasting-website/" target="blank">Try it Live <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+        </div>
+        <div class="proj-2">
+          <img src="https://imgtr.ee/images/2023/10/23/f5cfac04e66ec1ff44a1667c6155f469.png">
+          <div class="proj2-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <h2>music site</h2>
+            <p>Build Using HTML,CSS</p>
+            <button><a href="https://github.com/ayushpandey182005" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="" target="blank">Try it Live <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="more-work">
+          <p>
+            More
+          </p>
+          <a href="" target="blank">CodePen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> ayush22da@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/ayush-pandey-920094268" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+        <a href="https://github.com/ayushpandey182005" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://twitter.com/ayushpandey185" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
+        <a href="https://instagram.com/ayushpandey200518?igshid=YmMyMTA2M2Y=" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
 
-				<div class="interest1">
-					<p>I have a large interest in programming and I enjoy applying my skills to my personal projects. Fond of data engineering, full stack development, machine learning, and computer vision.</p>
-				</div>
-				<div class="interest2">
-					<p>Photography is one of my favorite hobbies. I love to travel new places and capture moments through my lenses. sI have been shooting for some time now and I produce HD photos with ease.</p>
-				</div>
-				<div class="interest3">
-					<p>I love playing outdoor games like cricket. It keeps me fit and my mind fresh.</p></div>
-			</div>
-
-		</section>
-		<section id="skills">
-			<h3>SKILLS</h3>
-			<div class="centered line"></div>
-			
-			<p>I have just started, I know C++, C, and mysql I am working on other languages as well, now C and C++ are my best languages.</p>
-
-			<div class="skills-grid-container">
-				<div class="skill-grid">
-					<h5>Programming Languages</h5>
-				<img src="https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png" alt="C">
-				<img src="https://isocpp.org/assets/images/cpp_logo.png" alt="c++">
-				</div>
-
-				<div class="skill-grid">
-					<h5>Web Development</h5>
-					<img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" alt="HTML">
-				</div>
-			</div>
-			
-		</section>
-		<section id="projects">
-			<h3>PROJECTS</h3>
-			<div class="centered line"></div>
-
-			<div class="project-container"></div>
-				</div>
-				</a>
-					</div>
-				</div>
-				</a>
-			
-					</div>
-				</div>
-				</a>
-
-				</div>
-				</a>
-			</div>
-			
-			
-		</section>
-
-		<footer>
-			<p>Copyright © 2023 Site designed and developed by Ayush pandey</p>
-			<p>This website is currently under construction and will be fully functioning very soon</p>
-		</footer>
-	</body>
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
 </html>
